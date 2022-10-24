@@ -1,0 +1,10 @@
+﻿  readwriteimage.c
+D:\C언어 고급(2022-2)\week6\DIP_22lu\BMPImage.h(180,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\C언어 고급(2022-2)\week6\DIP_22lu\BMPImage.h(181,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\C언어 고급(2022-2)\week6\DIP_22lu\BMPImage.h(186,48): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\DIP_22lu\BMPImage.h(187,50): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\DIP_22lu\BMPImage.h(188,49): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\DIP_22lu\readwriteimage.c(35,24): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\DIP_22lu\readwriteimage.c(36,26): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\DIP_22lu\readwriteimage.c(37,25): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DIP_22lu.vcxproj -> D:\C언어 고급(2022-2)\week6\DIP_22lu\x64\Debug\ReadWriteImage.exe

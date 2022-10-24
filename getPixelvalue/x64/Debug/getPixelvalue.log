@@ -1,0 +1,16 @@
+﻿  getpixelvalue.c
+D:\C언어 고급(2022-2)\week6\getPixelvalue\BMPImage_struct.h(180,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\BMPImage_struct.h(181,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\BMPImage_struct.h(186,48): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\BMPImage_struct.h(187,50): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\BMPImage_struct.h(188,49): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(82,25): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(83,27): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(84,26): warning C4244: '=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(98,45): warning C4244: '*=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(99,47): warning C4244: '*=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(100,46): warning C4244: '*=': 'float'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(92,23): warning C4244: '초기화 중': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(92,28): warning C4244: '초기화 중': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\C언어 고급(2022-2)\week6\getPixelvalue\getpixelvalue.c(92,33): warning C4244: '초기화 중': 'double'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  getPixelvalue.vcxproj -> D:\C언어 고급(2022-2)\week6\DIP_22lu\x64\Debug\getPixelvalue.exe
