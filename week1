@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS	//보완 호환성
+
+#include <stdio.h>	//기초 io header file 포함
+
+int main()
+{
+	int a;	//int* a = (int*)malloc(sizeof(int) * 1);
+	a = 1;	//*a = 1
+	int* pa = &a;
+	printf("%p, %p %d %d\n", &a, pa, a, *pa);	//Ampersand &	
+	printf("%dbytes %dbytes %dbytes\n", sizeof(int), sizeof(double), sizeof(char));
+	printf("\n");
+	int b = 100;
+	int* pb = &b;
+	int** ppb = pb;			//2중포인터
+	int*** pppb = ppb;		//3중포인터
+	
+	printf("%d, %d\n", &b, b);
+	printf("%d, %d\n", &pb, *pb);
+	printf("%d, %d\n", &ppb, *ppb);
+	printf("%d, %d\n", &pppb, *pppb);
+
+	return 1;
+}
