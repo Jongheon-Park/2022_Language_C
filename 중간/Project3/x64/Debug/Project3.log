@@ -1,0 +1,5 @@
+﻿  si.c
+D:\C언어 고급(2022-2)\중간\Project3\si.c(49,10): warning C4098: 'enc': 'void' 함수에서 값을 반환하고 있습니다.
+D:\C언어 고급(2022-2)\중간\Project3\si.c(17,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+D:\C언어 고급(2022-2)\중간\Project3\si.c(12,7): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+  Project3.vcxproj -> D:\C언어 고급(2022-2)\중간\중간프로젝트\x64\Debug\Project3.exe
