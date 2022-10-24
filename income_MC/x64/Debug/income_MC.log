@@ -1,0 +1,6 @@
+﻿  incom_mc.c
+D:\C언어 고급(2022-2)\Week4\income_MC\incom_mc.c(8,31): error C2143: 구문 오류: ')'이(가) '상수' 앞에 없습니다.
+D:\C언어 고급(2022-2)\Week4\income_MC\incom_mc.c(8,31): error C2143: 구문 오류: '{'이(가) '상수' 앞에 없습니다.
+D:\C언어 고급(2022-2)\Week4\income_MC\incom_mc.c(8,31): error C2059: 구문 오류: '상수'
+D:\C언어 고급(2022-2)\Week4\income_MC\incom_mc.c(8,54): error C2059: 구문 오류: ')'
+D:\C언어 고급(2022-2)\Week4\income_MC\incom_mc.c(26,34): error C2065: 'genRanNum': 선언되지 않은 식별자입니다.
