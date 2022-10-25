@@ -1,0 +1,124 @@
+define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>	
+#include <string.h>
+#define MAX_STR 255
+//암호화 
+/*void enc()
+{
+	FILE* fp1; 
+	FILE* fp2;
+	fp1 = fopen("exam.txt", "r");
+	fp2 = fopen("exam1.txt", "w");
+	char sentence[MAX_STR];
+	
+	for (int i = 0; i < MAX_STR; i++)
+	{
+		fscanf(fp1, "%s", &sentence[i]);
+		char stc = sentence[i];
+
+		if (stc == '\0') break;
+
+		int ascii = (int)stc;
+		int ascii_en = ascii + 3;
+
+		//암호화 대소문자 xyz 
+		if (((ascii_en >= 91) && (ascii_en <= 93)) || ((ascii_en >= 123) && (ascii_en <= 125)))
+		{
+			ascii_en -= 26;
+		}
+
+		//출력
+		char print_en = (char)ascii_en;
+		printf("%c\n", print_en);
+		fprintf(fp2, "%c\n", print_en);
+	}
+	fclose(fp1);
+	fclose(fp2);
+
+}*/
+void enc()
+{
+	char sentence[5][MAX_STR];
+	FILE* fp1 = fopen("exam.txt", "r");
+	FILE* fp2 = fopen("exam1.txt", "w");
+	for (int i = 0; i < 5; i++)
+	{
+        
+		for (int j = 0; j < MAX_STR; j++)
+		{
+		    fscanf(fp1, "%c", &sentence[i][j]);
+        	char stc = sentence[i][j];
+			if (stc == '\n') break;
+
+			int ascii = (int)stc;
+			int ascii_en = ascii + 5;
+
+			//암호화 대소문자 xyz 
+			if (((ascii_en >= 91) && (ascii_en <= 93)) || ((ascii_en >= 123) && (ascii_en <= 125)))
+			{
+				ascii_en -= 26;
+			}
+			char print_en = (char)ascii_en;
+			printf("%c", print_en);
+			fprintf(fp2, "%c", print_en);
+		}
+		printf("\n");
+	}
+	fclose(fp1);
+	fclose(fp2);
+}
+
+//복호화 
+void dec()
+{
+	FILE* fp1;
+	FILE* fp2;
+	fp1 = fopen("exam1.txt", "r");
+	fp2 = fopen("exam2.txt", "w");
+	char sentence[MAX_STR];
+	for (int i = 0; i < MAX_STR; i++)
+	{
+		fscanf(fp1, "%s", &sentence[i]);
+		char stc = sentence[i];
+
+		if (stc == '\0') break;
+
+		int ascii = (int)stc;
+		int ascii_de = ascii - 3;
+
+		//복호화 대소문자 abc
+		if (((ascii_de >= 62) && (ascii_de <= 64)) || ((ascii_de >= 94) && (ascii_de <= 96)))
+		{
+			ascii_de += 26;
+		}
+
+		//출력
+		char print_de = (char)ascii_de;
+		printf("%c", print_de);
+		fprintf(fp2, "%c\n", print_de);
+	}
+	fclose(fp1);
+	fclose(fp2);
+}
+
+//함수 호출
+void main()
+{
+	int choose;
+	printf("암호화------------------------ 1\n");
+	printf("복호화------------------------ 2\n");
+	scanf_s("%d", &choose);
+
+	if (choose == 1)
+	{
+		enc();
+	}
+	else if (choose == 2)
+	{
+		dec();
+	}
+	else
+	{
+		printf("\n암호화 또는, 복호화 중 하나를 선택하여 주십시오.\n\n");
+		main();
+	}
