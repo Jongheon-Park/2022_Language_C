@@ -31,17 +31,23 @@ void main()
 {
 	FILE* fp = fopen("tr_mo.txt", "w");
 	srand((unsigned int)time(NULL));
+	int dice[6];
 
-
-	for (int trials = 100; trials < 100000000; trials++)
+	for (int trials = 100; trials < 100000; trials*=2)
 	{
-		int num_dice = 0;
+		for(int i=0; i<6; i++)
+		{
+			dice[i]=0;
+		}
 		for (int i = 0; i < num_dice; i++)
 		{
-			double dice = getRanNumber(0.0, 6.0);
-			
+			int num = (int)getRanNumber(0.0, 6.0);
+			dice[num]++;
 		}
-		const double area = 4.0 * num_pts_circle / num_pts_square;
+		for(int j = 0; j<6; j++)
+		{
+		const double area = dice[j] / trails; //구해진 값이 1/6
+		}
 		printf("Estimated pi by MonCarlo Simulation = %lf\n", area);
 
 		fprintf(fp, "%lf\n", area);
